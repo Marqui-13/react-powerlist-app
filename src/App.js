@@ -103,8 +103,7 @@ function App() {
               <a title="Fleek" href="https://fleek.co/">
                 Fleek 
               </a> 
-            
-          </ul>
+    
       </div>
     </div>
   );
