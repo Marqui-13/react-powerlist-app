@@ -74,7 +74,7 @@ function App() {
 
           <p className='length'>{(tasks < 1) ? 'You have no tasks' : `Tasks: ${tasks.length}`}</p>
          
-        
+            <div>
               Made by{" "}
               <a title="Marqui" href="https://github.com/Marqui-13">
                 Marqui
@@ -103,8 +103,8 @@ function App() {
               <a title="Fleek" href="https://fleek.co/">
                 Fleek 
               </a> 
-    
-      </div>
+            </div>
+       </div>
     </div>
   );
 }
