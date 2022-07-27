@@ -74,36 +74,9 @@ function App() {
 
           <p className='length'>{(tasks < 1) ? 'You have no tasks' : `Tasks: ${tasks.length}`}</p>
          
-            <div>
-              Made by{" "}
-              <a title="Marqui" href="https://github.com/Marqui-13">
-                Marqui
-              </a>
-           
-            
-              Built with{" "}
-              <a title="React" href="https://reactjs.org/">
-                React JS 
-              </a> 
-           
-             
-              {" "}
-              <a title="Tailwind CSS" href="https://tailwindcss.com/">
-                Tailwind CSS 
-              </a> 
-            
-            
-              {" "}
-              <a title="IPFS" href="https://ipfs.io/">
-                IPFS 
-              </a> 
-            
-            
-              {" "}
-              <a title="Fleek" href="https://fleek.co/">
-                Fleek 
-              </a> 
-            </div>
+             <div class="madeby">
+                Made by <a href="https://github.com/Marqui-13" target="_blank">&nbsp;Marqui&nbsp;</a> ⚬ Built with&nbsp;<a href="https://reactjs.org/" target="_blank">ReactJS&nbsp;</a> ⚬ <a href="https://ipfs.io/" target="_blank">&nbsp;IPFS&nbsp;</a> ⚬ <a href="https://fleek.co/" target="_blank">&nbsp;Fleek&nbsp;</a>
+             </div>
        </div>
     </div>
   );
