@@ -81,3 +81,20 @@
 .app .length {
   margin: 1rem 0;
 }
+
+div .madeby {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+
+.madeby a{
+  color: darkblue;
+  text-decoration: none;
+}
+
+.madeby a:hover{
+  color: rgb(39, 35, 248);
+}
